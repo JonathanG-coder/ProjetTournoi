@@ -1,6 +1,43 @@
-.inscriptionFormulaire {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(164, 161, 222);
-
+header h1
+{
+    text-align: center;
+    color: #333;
 }
+
+.inscriptionFormulaire {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    padding: 10px;
+    height: 250px;
+    gap: 10px;
+    background-image: url(../img/fifa.jpg)
+}
+
+#inscriptionForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+body {
+  margin: 0;
+  background: black;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+}
+
+
+
+.form-container {
+
+
+display: flex;
+align-items: center;
+justify-items: center;
+justify-content: center;
+}
+
+

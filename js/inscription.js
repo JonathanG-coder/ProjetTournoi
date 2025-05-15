@@ -31,3 +31,7 @@ function inscriptions(tournoi) {
     inscription.appendChild(listeTournois)
   });
 }
+
+
+
+
