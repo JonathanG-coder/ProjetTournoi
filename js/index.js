@@ -1,3 +1,12 @@
+import  createFooter  from "/components/footer/footer.js";
+import  createHeader  from "/components/header/header.js";
+
+const header = createHeader()
+document.body.appendChild(header)
+
+const footer = createFooter()
+document.body.appendChild(footer)
+
 const nav = document.createElement('navbar')
 function createNavbar(navbar) {
     nav.innerHTML = `
@@ -69,4 +78,3 @@ fetch(`/data/tournaments.json`)
     .catch((error) => {
       console.error(error);
     });
-    

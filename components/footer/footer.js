@@ -1,4 +1,4 @@
-export function createFooter() {
+export default function createFooter() {
     const footer = document.createElement('footer');
     footer.innerHTML =`
     <footer>
