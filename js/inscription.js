@@ -6,9 +6,10 @@ fetch("../data/tournaments.json")
     inscriptions(data);
   })
   .catch((error) => {
-    console.e
-    rror("Erreur lors du chargement des données :", error);
+    console.error("Erreur lors du chargement des données :", error);
   });
+
+
 
 // Fonction d'affichage
 function inscriptions(tournoi) {
@@ -16,15 +17,17 @@ function inscriptions(tournoi) {
 
   const inscription = document.createElement("div");
 
-  inscription.innerHTML = `
-    <h1>Inscriptions</h1>
+  
+  tournoi.forEach((tournoi) => {
+    const listeTournois = document.createElement(`div`);
+    listeTournois.innerHTML = `
     <div class="inscriptionFormulaire">
-        <h2>${tournoi.name}</h2>
+        <h2><input type="checkbox" id="tournoiGame" name="tournoiGame" value="${tournoi.name}">${tournoi.name}</h2>
         <p>Jeu : ${tournoi.game}</p>
         <p>Date : ${tournoi.date}</p>
-        <img src="${tournoi.img}" alt="Image du tournoi" />
-    </div>
-  `;
+    </div>`;
 
-  container.appendChild(inscription);
+    container.appendChild(inscription);
+    inscription.appendChild(listeTournois)
+  });
 }

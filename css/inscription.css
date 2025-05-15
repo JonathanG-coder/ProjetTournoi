@@ -1,0 +1,6 @@
+.inscriptionFormulaire {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(164, 161, 222);
+
+}
