@@ -1,4 +1,4 @@
-export function createHeader() {
+export default function createHeader() {
     const header = document.createElement('header');
     header.innerHTML =`
     <img src="../../img/logo-noir.png" alt="">
