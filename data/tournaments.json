@@ -6,7 +6,7 @@
     "date": "2025-05-24T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 50,
-    "img": "img/fifa.jpg"
+    "img": "../img/fifa.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "date": "2025-06-07T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 45,
-    "img": "img/marioKart.jpg"
+    "img": "../img/marioKart.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "date": "2025-06-21T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 40,
-    "img": "img/superSmashBros.png"
+    "img": "../img/superSmashBros.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "date": "2025-07-05T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 49,
-    "img": "img/lol.jpg"
+    "img": "../img/lol.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "date": "2025-09-06T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 10,
-    "img": "img/valorant.jpg"
+    "img": "../img/valorant.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "date": "2025-09-20T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 35,
-    "img": "img/f1.jpg"
+    "img": "../img/f1.jpg"
   },
   {
     "id": 7,
@@ -69,7 +69,7 @@
     "date": "2025-10-18T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 50,
-    "img": "img/counterStrike.jpg"
+    "img": "../img/counterStrike.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "date": "2025-11-08T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 30,
-    "img": "img/chess.png"
+    "img": "../img/chess.png"
   },
   {
     "id": 10,
@@ -87,6 +87,6 @@
     "date": "2025-11-22T18:00:00Z",
     "maxParticipants": 50,
     "currentParticipants": 20,
-    "img": "img/callofduty.jpg"
+    "img": "../img/callofduty.jpg"
   }
 ]
