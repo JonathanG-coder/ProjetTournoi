@@ -2,7 +2,7 @@ import  createFooter  from "/components/footer/footer.js";
 import  createHeader  from "/components/header/header.js";
 
 const header = createHeader()
-document.body.appendChild(header)
+document.body.prepend(header)
 
 const footer = createFooter()
 document.body.appendChild(footer)

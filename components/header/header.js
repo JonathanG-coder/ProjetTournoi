@@ -1,5 +1,5 @@
 export default function createHeader() {
-    const header = document.createElement('header');
+    const header = document.getElementById('header');
     header.innerHTML =`
     <img src="../../img/logo-noir.png" alt="">
     <nav>
