@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Tournoi FIFA 2025",
+    "game": "FIFA 2025",
+    "date": "2025-05-24T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 50
+  },
+  {
+    "id": 2,
+    "name": "Tournoi Mario Kart",
+    "game": "Mario Kart",
+    "date": "2025-06-07T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 45
+  },
+  {
+    "id": 3,
+    "name": "Tournoi Super Snmash Bros",
+    "game": "Super Smash Bros",
+    "date": "2025-06-21T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 40
+  },
+  {
+    "id": 4,
+    "name": "Tournoi Leaugue of Legends",
+    "game": "League of Legends",
+    "date": "2025-07-05T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 49
+  },
+  {
+    "id": 5,
+    "name": "Tournoi Valorant",
+    "game": "Valorant",
+    "date": "2025-09-06T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 10
+  },
+  {
+    "id": 6,
+    "name": "Tournoi F1 24",
+    "game": "F1 2024",
+    "date": "2025-09-20T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 35
+  },
+  {
+    "id": 7,
+    "name": "Tournoi Fortnite",
+    "game": "Fortnite",
+    "date": "2025-10-04T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 15
+  },
+  {
+    "id": 8,
+    "name": "Tournoi Counter Strike",
+    "game": "Counter Strike",
+    "date": "2025-10-18T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 50
+  },
+  {
+    "id": 9,
+    "name": "Tournoi Chess",
+    "game": "Chess",
+    "date": "2025-11-08T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 30
+  },
+  {
+    "id": 10,
+    "name": "Tournoi Call of Duty",
+    "game": "Call of Duty",
+    "date": "2025-11-22T18:00:00Z",
+    "maxParticipants": 50,
+    "currentParticipants": 20
+  }
+]
